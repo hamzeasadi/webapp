@@ -1,0 +1,42 @@
+h1{
+  background-color: rgb(22, 34, 244);
+  color: dark blue;
+  text-align: center;
+}
+
+div{
+  width: 200px;
+  height: 300px;
+  color: rgb(22, 33, 222);
+  background: cyan;
+}
+
+#div_1{
+  background-color: orange;
+  color: maroon;
+  height: 300px;
+  width: 400px;
+}
+
+#top{
+  width: 200px;
+  height: 100px;
+  background-color: #95EFBF;
+  color: #46089B;
+}
+#middle{
+  width: 200px;
+  height: 100px;
+  background-color: #E3F192;
+  color: #E07DDF;
+}
+
+#bottom{
+  width: 200px;
+  height: 100px;
+  background-color: #95EFBF;
+  color: #46089B;
+}
+.sp{
+  color: #F4855B;
+}
