@@ -7,59 +7,55 @@
   </head>
   <body>
 
-      <div id="div_1" class="div">
-        <h2>Basic GIT Commands</h2><br>
-        <ul>
-          <li><a href="#sec_1">git init</li>
-            <li><a href="#sec_2">git clone </li>
-              <li> <a href="#sec_3">git add </li>
-        </ul>
+      <div class="container">
+
+        <div>
+          <h1>welcome to my webpage</h1>
+        </div>
+
+        <div>
+          <ul>
+            <li> <a href="#sec_1"> git remote </li>
+            <li> <a href="#sec_2"> git branch </li>
+            <li> <a href="#sec_3"> git pull </li>
+            <li> <a href="#sec_4"> git log </li>
+          </ul>
+        </div>
+
+        <div>
+          <p>lets you view all remote repositories. The following command
+            will list all connections along with their URLs:<br>
+            <b> <span> git remote –v </span> </b><br>
+            To connect the local repository to a remote server, use the command below:</p>
+        </div>
+
+        <div id="sec_2">
+          <p> will list, create, or delete branches. For instance, if you want
+            to list all the branches present in the repository, the command should
+            look like this:<br>
+            <span> <b>git branch</b> </span><br>
+            If you want to delete a branch, use: </p>
+        </div>
+
+        <div id="sec_3">
+          <p>merges all the changes present in the remote repository to the
+            local working directory.</p>
+        </div>
+
+        <div id="sec_4">
+          <p>is used to see the repository’s history by listing certain
+            commit’s details. Running the command will get you an output
+            that looks like this:</p>
+        </div>
+
+        <div>
+          <form class="" action="index.html" method="post">
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="password" name="pass" placeholder="password"><br>
+            <input type="submit">
+          </form>
+        </div>
+
       </div>
-
-
-    <div id="div_2" class="div">
-
-      <form class=""  method="post">
-        <div class="div">
-          <input type="text" name="name" placeholder="Name"><br>
-          <input type="password" name="password" placeholder="password">
-        </div>
-
-        <div class="div">
-          Favriot color!
-          <input type="radio" name="color" value="red">red<br>
-          <input type="radio" name="color" value="blue">blue<br>
-          <input type="radio" name="color" value="maroon">maroon<br>
-          <input type="radio" name="color" value="yello">yello<br>
-          <input type="radio" name="color" value="others">others <br>
-        </div>
-        <!-- country -->
-        <div class="div">
-          <input type="text" name="country" list="countries" placeholder="country">
-          <datalist id="countries">
-            <option value="Iran"></option>
-            <option value="USA"></option>
-            <option value="Russia"></option>
-            <option value="China"></option>
-            <option value="UK"></option>
-          </datalist>
-        </div>
-      </form>
-    </div>
-
-    <div id="div_3" class="div">
-
-            <h3 id="sec_1">git init</h3>
-            <p>will create a new local GIT repository. The following Git command
-              will create a repository in the current directory:</p>
-
-              <h3 id="sec_2">git clone</h3>
-              <p>is used to copy a repository. If the repository lies on a
-                remote server, use:</p>
-
-                <h3 id="sec_3">git add</h3>
-                <p>is used to add files to the staging area. For example, the
-                  basic Git following command will index the temp.txt file:</p>
-    </div>
   </body>
 </html>
