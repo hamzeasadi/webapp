@@ -1,23 +1,32 @@
 #div_1{
   width: 200px;
   height: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 #div_2{
-  width: 200px;
+  width: 400px;
   height: 600px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 #div_3{
   width: 300px;
   height: 200px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .div{
   background-color: #ECF7A6;
-  text-align: center;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 p{
