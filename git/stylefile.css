@@ -1,12 +1,5 @@
-.container{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.dd{
+.row > div{
   background-color: springgreen;
-  font-size: 20px;
-  margin: 20px;
   padding: 20px;
-  width: 200px;
+  border: 2px solid black;
 }
